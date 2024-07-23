@@ -29,8 +29,8 @@ export function Menu() {
           Apresentação
         </Navbar.Link>
         <Navbar.Link as={Link} href="/exercicio_01">Exercicio 01</Navbar.Link>
-        <Navbar.Link href="/ex_02">Exercício 02</Navbar.Link>
-        <Navbar.Link href="/ex_03">Exercício 03</Navbar.Link>
+        <Navbar.Link as={Link} href="/exercicio_02">Exercício 02</Navbar.Link>
+        <Navbar.Link as={Link} href="/exercicio_03">Exercício 03</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
